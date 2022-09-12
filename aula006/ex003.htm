@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primiero programa</title><!--Aqui é o conteudo em HTML lingiagem de marcação, geral o css e o js vem dentro dele.-->
+    <style> /* Essa parte da tag STYLE é o CSS é a parte de estilo visual, folhas de estilo.*/
+        body {
+            background-color: bisque;
+            color: green;
+            font: normal 20pt arial;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>     
+        var nome = window.prompt('Qual éo seu nome?')
+        window.alert('É um agrande prazer te conhecer,'+ nome)
+    </script>
+    <Script>
+        var n1 = Number(window.prompt('digite um numero:'))
+        var n2 = Number(window.prompt('Digite outro nome:'))
+        var s = n1 + n2
+        window.alert('A soma entre ${n1} e ${n2} é igual a ${s}')
+        //Convertendo para soma: Number.parseInte(n) Ou NumberFloat(n)
+        //Inte(numeros inteiros) e Float(Numeros )
+        //Vamosconverter de outra forma somente colocando Number(n)
+        //Para converter de Number para String é so colocar String(n) ou n.toString()
+    </Script>
+</body>
+</html>
